@@ -1,5 +1,5 @@
 {
-  "name": "cycletls_client",
+  "name": "@metoda/cycletls_client",
   "version": "0.0.1",
   "description": "Spoof TLS/JA3 fingerprint in JS with help from Go",
   "main": "dist/index.js",
@@ -23,7 +23,7 @@
     "fingerprint",
     "mimic"
   ],
-  "license": "GPL3",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/dpasichnyk/cycletls_client/issues"
   },

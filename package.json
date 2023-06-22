@@ -1,5 +1,5 @@
 {
-  "name": "cycletls",
+  "name": "cycletls_client",
   "version": "0.0.1",
   "description": "Spoof TLS/JA3 fingerprint in JS with help from Go",
   "main": "dist/index.js",
@@ -7,7 +7,7 @@
   "files": [
     "/dist"
   ],
-  "author": "Danny-Dasilva",
+  "author": "Dmytro Pasichnyk",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
@@ -18,18 +18,16 @@
     "directory": "git+https://github.com/dpasichnyk/cycletls_client.git"
   },
   "keywords": [
-    "cycletls",
-    "utls",
-    "ja3",
+    "cycletls_client",
     "spoof",
     "fingerprint",
     "mimic"
   ],
   "license": "GPL3",
   "bugs": {
-    "url": "https://github.com/dpasichnyk/CycleTLS/issues"
+    "url": "https://github.com/dpasichnyk/cycletls_client/issues"
   },
-  "homepage": "https://github.com/dpasichnyk/CycleTLS#readme",
+  "homepage": "https://github.com/dpasichnyk/cycletls_client#readme",
   "dependencies": {
     "@types/node": "^17.0.24",
     "ws": "^7.5.7"
